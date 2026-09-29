@@ -1,0 +1,1 @@
+export const police = "sans-serif"
