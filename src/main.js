@@ -1,7 +1,7 @@
-document.querySelector("#app").innerHTML = `
+document.querySelector("#app1").innerHTML = `
     <header class="bg-slate-950">
         <div class="flex flex-row items-center justify-between px-16 py-2">
-            <span class="text-violet-400 text-xl font-semibold">Nimbus</span>
+            <span class="text-violet-400 text-xl font-semibold">Nimbus</span> 
             <button class="
             bg-violet-500 text-white text-base rounded-md px-6 py-3 font-semibold cursor-pointer"
             >
@@ -36,6 +36,7 @@ document.querySelector("#app").innerHTML = `
                     <div class="w-40 h-54 rounded-md bg-linear-to-br from-violet-800 to-indigo-950"></div>
                 </div>
             </div>
+            <div>
                 <span class="text-white font-semibold">Nouveauté</span>
                 <div class="flex flex-row gap-3">
                     <div class="w-40 h-54 rounded-md bg-linear-to-br from-gray-700 to-gray-900"></div>
@@ -47,21 +48,21 @@ document.querySelector("#app").innerHTML = `
                 </div>
             </div>
         </section>
-        <section>
-            <div>
-                <span>Qualité 4K</span>
+        <section class="flex flex-row pt-24 gap-12">
+            <div class="bg-slate-800 w-3xs p-4 rounded-md">
+                <span class="text-white font-semibold">Qualité 4K</span>
                 <p>Une image nette sur tous vos écrans compatibles.</p>
             </div>
-            <div>
-                <span>Plusieurs écrans</span>
+            <div class="bg-slate-800 w-3xs p-4 rounded-md">
+                <span class="text-white font-semibold">Plusieurs écrans</span>
                 <p>Jusqu'à 4 profils sur 1 seul abonnement.</p>
             </div>
-            <div>
-                <span>Téléchargement</span>
+            <div class="bg-slate-800 w-3xs p-4 rounded-md">
+                <span class="text-white font-semibold">Téléchargement</span>
                 <p>Regardez hors connexion, en avion ou en déplacement.</p>
             </div>
-            <div>
-                <span>Résiliable à tout moment</span>
+            <div class="bg-slate-800 w-3xs p-4 rounded-md">
+                <span class="text-white font-semibold">Résiliable à tout moment</span>
                 <p>Aucun engagement, aucune surprise sur la facture</p>
             </div>
         </section>
